@@ -45,7 +45,7 @@ jekyll-scaffolding/
 
 ## 🛠️ Instalación
 
-### Prerequisitos
+### Prerrequisitos
 
 - Ruby 2.5 o superior
 - RubyGems
