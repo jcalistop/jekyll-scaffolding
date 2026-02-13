@@ -13,9 +13,9 @@ title: Inicio
   
   {% for post in site.posts limit:5 %}
     <div class="post-item">
-      <h2>
+      <h3>
         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      </h2>
+      </h3>
       <p class="post-meta">
         <time datetime="{{ post.date | date_to_xmlschema }}">
           {{ post.date | date: "%d de %B, %Y" }}

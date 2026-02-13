@@ -5,6 +5,9 @@ author: Tu Nombre
 email: tu@email.com
 url: "https://tudominio.com"
 baseurl: ""
+lang: es
+timezone: America/Mexico_City
+encoding: utf-8
 
 # Build settings
 markdown: kramdown
@@ -20,6 +23,15 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
+
+# Defaults para posts
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      author: "Tu Nombre"
 
 # Exclude from processing
 exclude:
